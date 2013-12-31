@@ -1,0 +1,33 @@
+{
+  "name": "pinvault-observer",
+  "version": "0.1.0",
+  "description": "An observer/mediator library that supports objects and arrays as event names for partial matching on dispatches.",
+  "main": "pinvault-observer.js",
+  "scripts": {
+    "test": "nodeunit tests/nodeunit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiperSoft/PinVaultObserver.git"
+  },
+  "keywords": [
+    "events",
+    "pubsub",
+    "publish",
+    "subscribe",
+    "observer",
+    "mediator"
+  ],
+  "author": "Jarvis Badgley <chiper@chipersoft.com> (http://chipersoft.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChiperSoft/PinVaultObserver/issues"
+  },
+  "homepage": "https://github.com/ChiperSoft/PinVaultObserver",
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
+  },
+  "dependencies": {
+    "pinvault": "~0.1.2"
+  }
+}

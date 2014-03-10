@@ -279,7 +279,7 @@
 			//window.postMessage hook
 			} else if (typeof postMessage === 'function' && typeof addEventListener === 'function') {
 				var id = Math.round(Math.random()*1000000);
-				addEventListener('message', function (event) {
+				addEventListener('message', function wrapper (event) {
 					if (event.data === id) {
 						removeEventListener('message', wrapper);
 						callback();

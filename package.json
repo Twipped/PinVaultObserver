@@ -1,6 +1,6 @@
 {
   "name": "pinvault-observer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An observer/mediator library that supports objects and arrays as event names for partial matching on dispatches.",
   "main": "pinvault-observer.js",
   "scripts": {
